@@ -1,0 +1,10 @@
+
+.main_footer_inner {
+    height: 32px;
+    background-color: #696969;
+}
+
+.container {
+    width: 100%;
+    max-width: 920px;
+}

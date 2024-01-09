@@ -1,0 +1,11 @@
+.main {
+    min-height: 490px;
+    background-color: #fff;
+
+    display: flex;
+}
+
+.container {
+    width: 100%;
+    max-width: 920px;
+}

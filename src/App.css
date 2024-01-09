@@ -1,0 +1,138 @@
+.App {
+  height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+
+  flex-direction: column;
+  background-color: #e5e5e5;
+}
+
+/* SETTINGS PRODUCTS */
+
+.products-settings-column {
+  padding: 10px;
+  width: 410px;
+  border-left: 2px solid #e7e7e7
+}
+
+.products-settings-column textarea {
+  background-color: #e7e7e7;
+  outline: none;
+  border: 0;
+  padding: 16px;
+  border-radius: 5px;
+  font-size: 10px;
+
+}
+
+.products-settings-column input {
+  margin-bottom: 10px;
+  margin-right: 10px;
+  background-color: #e7e7e7;
+  outline: none;
+  border: 0;
+  padding: 7px;
+  border-radius: 5px;
+
+  width: 100%;
+  max-width: 170px;
+  font-size: 10px;
+}
+
+.products-settings-column input:nth-child(even) {
+  margin-right: 0;
+}
+
+.description-block {
+  margin-bottom: 5px;
+}
+
+.buttons_block button {
+  width: 100%;
+  max-width: 180px;
+
+  margin-right: 16px;
+  background-color: #696969;
+  border-radius: 5px;
+  color: #fff;
+  text-transform: uppercase;
+  outline: none;
+  border: 0;
+  cursor: pointer;
+  padding: 5px;
+  transition: all .2s linear;
+}
+
+.buttons_block button:hover {
+  opacity: 0.8;
+}
+
+.buttons_block button:last-child {
+  margin-right: 0;
+}
+
+/* PRODUCTS COLUMN */
+
+.products-column {
+  padding: 10px;
+  width: 510px;
+}
+
+.product-item {
+  padding: 7px;
+  background-color: #e7e7e7;
+  color: #333;
+
+  display: flex;
+  justify-content: space-between;
+
+  border-radius: 10px;
+  border: 2px solid #6fcf97;
+
+  margin-bottom: 10px;
+}
+
+.name, .id {
+  text-transform: uppercase;
+}
+
+.name span {
+  font-weight: 700;
+}
+
+.prod-left-info div {
+  font-size: 13px;
+  margin-bottom: 5px;
+}
+
+.status {
+  display: flex;
+  align-items: center;
+}
+
+.id {
+  font-size: 8px !important;
+}
+
+.status-select {
+  background-color: transparent;
+  border: none;
+  cursor: pointer;
+  outline: none;
+  margin-left: 10px;
+}
+
+.close {
+  text-align: right;
+  cursor: pointer;
+  margin-bottom: 25px;
+}
+
+.close span {
+  padding: 7px;
+}
+
+.out-of-stock {
+  opacity: 0.4;
+}
